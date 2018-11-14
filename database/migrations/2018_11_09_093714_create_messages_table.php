@@ -18,7 +18,6 @@ class CreateMessagesTable extends Migration
             $table->unsignedInteger('owner_id');
             $table->text('content');
             $table->timestamps();
-
             $table->foreign('owner_id')->references('id')->on('users');
         });
     }

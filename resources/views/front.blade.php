@@ -6,14 +6,16 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>Page Title</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" type="text/css" media="screen" href="stars.css" />
 
 </head>
 <body>
-    <div class="container">
-        <h1>Splash page</h1>
+    <div class="background">
+    <h1>Law of Attraction</h1>
+        <div class="stars"></div>
+        <div class="twinkling"></div>
+        <div class="clouds"></div>
     </div>
-
+    
 </body>
 </html>
 

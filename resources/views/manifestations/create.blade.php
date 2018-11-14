@@ -2,7 +2,7 @@
 
 @section('title', 'New Manifestation')
 @section('content')
-    <h1>New Manifestation</h1>
+    <h2>New Manifestation</h2>
 
     <form class="msg-form" method="POST" action="/manifestations">
         {{ csrf_field() }}

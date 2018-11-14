@@ -7,9 +7,9 @@
                 {{ method_field('PATCH') }}
                 {{ csrf_field() }}
         
-                <div>
-                    <input type="text" name="title" placeholder="Manifestation title" value="{{ $message->title }}" required>
-                </div>
+                <!--<div>
+                      <input type="text" name="title" placeholder="Manifestation title" value="{{ $message->title }}">
+                </div>-->
         
                 <div>
                 <textarea name="content" class="message" placeholder="Manifestation content">{{ $message->content }}</textarea>

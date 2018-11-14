@@ -3,7 +3,7 @@
 @section('title', 'Home')
 
 @section('content')
-<h2> Welcome</h2>
+<h2>Law of Attraction</h2>
         <p>
         With the Law of Attraction you can manifest anything you desire. And attract whatever it is that you want in your life. To get started go to "New manifestation" in the menu bar. To view your previous manifestations go to "Your manifestations".</p>
         <p>

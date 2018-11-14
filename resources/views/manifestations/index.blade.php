@@ -7,12 +7,11 @@
     
     @foreach ($messages as $message)
     <div class="msg">
-            <h4>{{ $message->title }}</h4>
+            <!--<h4>{{ $message->title }}</h4>-->
             <div class="edit-delete">
             <p class='datetime'>{{ $message->created_at}}<br></p>
-            <a href="/manifestations/{{ $message->id }}/edit">Edit</a>
+            <a href="/manifestations/{{ $message->id }}/edit"><img src="images/pen.svg" class="edit-btn"></a>
             </div>
-                
             {{ $message->content }}<br>
     </div>    
     @endforeach

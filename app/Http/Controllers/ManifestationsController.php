@@ -15,7 +15,7 @@ class ManifestationsController extends Controller
 
     public function index() {
 
-        $messages = Message::where('owner_id', auth()->id())->get();
+        $messages = Message::where('owner_id', auth()->id())->orderBy('id', 'desc')->get();
 
         return view('manifestations.index', ['messages' => $messages]);
 
@@ -29,8 +29,8 @@ class ManifestationsController extends Controller
     public function store() {
 
         $attributes = request()->validate([
-            'title' => 'required', 
-            'content' => ['required', 'max:255']
+            /*'title' => 'required',*/
+            'content' => 'required'
         ]);
 
         $attributes['owner_id'] = auth()->id();
@@ -55,7 +55,7 @@ class ManifestationsController extends Controller
 
     public function update(Message $message) {
 
-        $message->title = request('title');
+        /*$message->title = request('title');*/
         $message->content = request('content');
 
         $message->save();

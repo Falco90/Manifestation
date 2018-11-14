@@ -29,7 +29,6 @@ class ManifestationsController extends Controller
     public function store() {
 
         $attributes = request()->validate([
-            /*'title' => 'required',*/
             'content' => 'required'
         ]);
 
@@ -54,8 +53,6 @@ class ManifestationsController extends Controller
     }
 
     public function update(Message $message) {
-
-        /*$message->title = request('title');*/
         $message->content = request('content');
 
         $message->save();

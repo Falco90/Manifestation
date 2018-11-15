@@ -10,6 +10,8 @@
             <div class="edit-delete">
             <p class='datetime'>{{ $message->created_at}}<br></p>
             <a href="/manifestations/{{ $message->id }}/edit"><img src="images/pen.svg" class="edit-btn"></a>
+        
+        
             </div>
             {{ $message->content }}<br>
     </div>  

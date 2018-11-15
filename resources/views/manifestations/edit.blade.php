@@ -7,9 +7,6 @@
                 {{ method_field('PATCH') }}
                 {{ csrf_field() }}
         
-                <!--<div>
-                      <input type="text" name="title" placeholder="Manifestation title" value="{{ $message->title }}">
-                </div>-->
         
                 <div>
                 <textarea name="content" class="message" placeholder="Manifestation content">{{ $message->content }}</textarea>
@@ -26,8 +23,7 @@
                 {{ csrf_field() }}
                  
                 <div>
-                    <button type="submit" class="submit-btn">Delete</button>
+                    <button type="submit" class="submit-btn" onclick="return confirm('Are you sure you want to delete this manifestation?')">Delete</button>
                 </div>
-
             </form>
 @endsection

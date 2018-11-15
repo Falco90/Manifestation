@@ -11,12 +11,12 @@
 |
 */
 
-Route::get('/home', function () {
-    return view('welcome');
+Route::get('/', function () {
+    return view('front');
 });
 
-Route::get('/front', function() {
-    return view('front');
+Route::get('/home', function() {
+    return view('home');
 });
 
 /*Route::resource('manifestations', 'ManifestationsController');*/
@@ -33,5 +33,5 @@ Route::get('/manifestations/{message}/edit', 'ManifestationsController@edit');
 
 Auth::routes();
 
-Route::get('/', 'HomeController@index')->name('home');
+Route::get('/welcome', 'HomeController@index')->name('home');
 

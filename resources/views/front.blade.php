@@ -11,10 +11,6 @@
 <body>
     <div class="background">
     <h1>Law of Attraction</h1>
-        <div class="stars"></div>
-        <div class="twinkling"></div>
-        <div class="clouds"></div>
-    </div>
     
 </body>
 </html>

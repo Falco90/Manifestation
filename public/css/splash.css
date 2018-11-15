@@ -143,6 +143,10 @@ a {
     align-items: center;
 }
 
+#email-text {
+    margin-bottom: 50px;
+}
+
 .login-btn {
     background-color: rgba(255, 255, 250, 0);
     border: 2px solid #FFFFFA;
@@ -158,6 +162,25 @@ a {
 }
 
 .login-btn:hover {
+    cursor: pointer;
+    background-color: #020659;
+    color: #FFFFFA;
+}
+
+#pw-btn {
+    background-color: rgba(255, 255, 250, 0);
+    border: 2px solid #FFFFFA;
+    color: #FFFFFA;
+    border-radius: 5px;
+    font-family: 'Roboto';
+    font-size: 18px;
+    width: auto;
+    height: auto;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+#pw-btn:hover {
     cursor: pointer;
     background-color: #020659;
     color: #FFFFFA;

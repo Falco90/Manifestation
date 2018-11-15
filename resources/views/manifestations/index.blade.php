@@ -2,7 +2,7 @@
 
 @section('title', 'Manifestations')
 
-    @section('content')
+@section('content')
     <h2>Your Manifestations</h2>
     <div class="msg-container">
     @foreach ($messages as $message)
@@ -17,6 +17,5 @@
     </div>  
  
     @endforeach
-    
-    @endsection
 </div>
+@endsection

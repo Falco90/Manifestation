@@ -10,7 +10,7 @@
 </head>
 <body>
     <div class="background">
-    <h1>Law of Attraction</h1>
+    <h1>Floating Oasis</h1>
     
 </body>
 </html>

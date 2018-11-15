@@ -13,7 +13,6 @@ body {
 
 h1, h2, h3, h4 {
     font-family: 'Raleway';
-    z-index: 4;
 }
 
 .gradient-overlay {
@@ -26,43 +25,7 @@ h1, h2, h3, h4 {
     z-index: -1;
 }
 
-@keyframes flicker {
-    0% {
-    opacity: 0;
-    }
-    
-    50% {
-    opacity: 1;
-    }
-    
-    100% {
-    opacity: 0;
-    }
-    
-    }
-
-    
-    /*.wrapper {
-        background-color: rgba(255, 255, 250, 0);
-        width: 80%;
-        margin-left: 10%;
-        height: auto;
-        color: #FFFFFA;
-        display: flex;
-    }
-    
-    .container {
-        width: 80%;
-        margin-left: 10%;
-        background-color: rgba(255, 255, 250, 0);
-        padding: 30px;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        border-radius: 10px;
-    }*/
-    
-    .navbar {
+.navbar {
     background-color: rgba(255, 255, 250, 0);
     width: 100%;
     top: 0px;
@@ -72,33 +35,6 @@ h1, h2, h3, h4 {
     padding: 20px;
     box-sizing: border-box;
     z-index: 4;
-}
-
-.form-group {
-    margin-bottom: 10px;
-    display: flex;
-    flex-direction: column;
-
-}
-
-.login-form {
-    width: 60%;
-    margin-left: 20%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
-.form-control {
-    width: 220px;
-    height: 30px;
-    font-size: 16px;
-    border-radius: 5px;
-    border: none;
-    padding: 5px;
-    margin-top: 5px;
-    color: #00467F;
-    font-family: 'Open Sans';
 }
 
 .nav-ul {
@@ -126,6 +62,33 @@ h1, h2, h3, h4 {
 a {
     text-decoration: none;
     color: #FFFFFA;
+}
+
+.form-group {
+    margin-bottom: 10px;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.login-form {
+    width: 60%;
+    margin-left: 20%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.form-control {
+    width: 220px;
+    height: 30px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: none;
+    padding: 5px;
+    margin-top: 5px;
+    color: #00467F;
+    font-family: 'Open Sans';
 }
 
 .btn-forgot {
@@ -237,3 +200,18 @@ a {
     from {background-position: 0 0;}
     to {background-position: 10000px 0;}
 }
+
+@keyframes flicker {
+    0% {
+    opacity: 0;
+    }
+    
+    50% {
+    opacity: 1;
+    }
+    
+    100% {
+    opacity: 0;
+    }
+    
+    }

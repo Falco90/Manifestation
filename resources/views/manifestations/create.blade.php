@@ -3,7 +3,8 @@
 @section('title', 'New Manifestation')
 @section('content')
     <h2>New Manifestation</h2>
-
+    <h3>"Inspiring quote" - Some wise person</h3>
+    
     <form class="msg-form" method="POST" action="/manifestations">
         {{ csrf_field() }}
         <div>

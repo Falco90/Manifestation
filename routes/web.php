@@ -19,7 +19,11 @@ Route::get('/home', function() {
     return view('home');
 });
 
-/*Route::resource('manifestations', 'ManifestationsController');*/
+Route::get('/instructions', function() {
+    return view('instructions');
+});
+
+
 
 
 Route::get('/manifestations', 'ManifestationsController@index');
